@@ -1,0 +1,43 @@
+/* p {
+    color: royalblue;
+}
+
+.error {
+    color: red;
+}
+.success {
+    color: green;
+    
+}
+.floating {
+    color: orange;
+    border: 2px dashed rgb(228, 74, 203);
+}
+div.error {
+    color: violet;
+}
+#content {
+    background-color: gray;
+    padding: 20px;
+} */
+
+/* div .error{
+    color: rgb(231, 22, 35);
+} */
+
+a[href] {
+    background-color: rgb(87, 235, 87);
+}
+a[href="https://www.nothing.com"] {
+    color: #000;
+    background-color: gray;
+    border: 2px solid gray;
+}
+
+a[href*="goog"] {
+    color: #f0ecec;
+    background-color: rgb(35, 194, 67);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
