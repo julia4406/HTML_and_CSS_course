@@ -60,7 +60,7 @@ nav li {
     width: inline-block;
     display: inline-block;
     font-size: 24px;
-    margin: 5%;
+    margin: 0 5%;
 }
 nav li a {
     text-decoration: none;
@@ -122,4 +122,38 @@ form input{
 footer {
     background: #f63232;
     text-align: center;
+}
+
+/*pseudoclasses */
+
+nav li a:hover{
+    text-decoration: underline;
+}
+.images li:hover{
+    position: relative;
+    top: -4px;
+}
+
+form input:focus{
+    border: 4px dashed #4B4B4B;
+    outline: none;
+
+}
+form input:valid{
+    border: 4px solid green;
+}
+
+article p::first-line{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+section.join p::first-letter{
+    font-size: 1.3em;
+}
+section.join p::selection{
+    background-color: red;
+    color: white;
+}
+p::after{
+    content: '...'
 }
